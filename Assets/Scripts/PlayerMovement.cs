@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     {
         countText.text = "COUNT : " + count.ToString();
 
-        if (count == 8)
+        if (count == 20)
         {
             winText.gameObject.SetActive(true);
         }

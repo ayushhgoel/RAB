@@ -21,6 +21,6 @@ public class CameraControler : MonoBehaviour
     
     public void reload()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
